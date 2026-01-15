@@ -50,6 +50,9 @@ The payment layer is intentionally mocked to avoid real fund movement and focus 
 python demo/run_demo.py
 streamlit run ui/app.py
 ```
+📌 **Demo behavior note**  
+See [`SAFETY_SCALE.md`](./SAFETY_SCALE.md) for an explanation of the 1–10 safety scale
+and why payments may be allowed in CLI but blocked in the UI.
 
 ---
 
@@ -113,6 +116,9 @@ Agent → Barrière de sécurité → Paiement USDC Arc (simulé)
 python demo/run_demo.py
 streamlit run ui/app.py
 ```
+📌 **Note on demo behavior**  
+See [`SAFETY_SCALE.md`](./SAFETY_SCALE.md) for a short explanation (EN/FR)
+of the safety scale used in this demo.
 
 ---
 
